@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:text="Quiz 3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Question -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/question3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/Q3rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Q3o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100km/h" />
+
+        <RadioButton
+            android:id="@+id/Q3n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="110km/h" />
+
+    </RadioGroup>
+
+    <!-- Bouton Next -->
+    <Button
+        android:id="@+id/Q3next"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/greey1"
+        android:textColor="@color/black"
+        android:text="Next" />
+
+    <!-- Logo en bas du layout -->
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="79dp"
+        android:src="@drawable/img"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

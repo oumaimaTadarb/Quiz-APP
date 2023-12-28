@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="register">to register click here</string>
+    <string name="question1">Qu\' indique ce panneau?</string>
+    <string name="question2">Sans la situation présenté sur la photo, je peux circuler à 90km/h? </string>
+    <string name="question3">S\'il peut, à quelle vitesse puis-je circuler aprés ce panneau?</string>
+    <string name="question4">Qu\'indiquent ces balises ?</string>
+    <string name="question5">S\'il pleut, à quelle vitesse maximaale puis-je circuler sur autoroute?</string>
+    <string name="votre_score_est">Votre score est :</string>
+
+</resources>
